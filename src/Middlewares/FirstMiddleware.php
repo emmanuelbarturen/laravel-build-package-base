@@ -1,4 +1,4 @@
-<?php namespace VendorName\PackageName\Middleware;
+<?php namespace VendorName\PackageName\Middlewares;
 
 use Closure;
 
@@ -19,7 +19,7 @@ class FirstMiddleware
     public function handle($request, Closure $next)
     {
         $user = auth()->user();
-        if ($user && $user->freshsales_id) {
+        if ($user) {
             # do your magic
         }
 

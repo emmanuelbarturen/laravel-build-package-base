@@ -1,7 +1,7 @@
 <?php namespace VendorName\PackageName;
 
 use Illuminate\Support\ServiceProvider;
-use VendorName\PackageName\Middleware\FirstMiddleware;
+use VendorName\PackageName\Middlewares\FirstMiddleware;
 
 
 class PackageNameServiceProvider extends ServiceProvider
@@ -20,7 +20,7 @@ class PackageNameServiceProvider extends ServiceProvider
 
         # Publishes
         $this->publishes([__DIR__ . '/migrations' => $this->app->databasePath() . '/migrations'], 'migrations');
-        $this->publishes([__DIR__ . '/config/packagename.php' => config_path('freshsales.php')]);
+        $this->publishes([__DIR__ . '/config/packagename.php' => config_path('packagename.php')]);
 
         # Middleware
         app('router')->aliasMiddleware('name.middleware', FirstMiddleware::class);

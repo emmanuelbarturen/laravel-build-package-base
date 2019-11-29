@@ -864,16 +864,16 @@
         },
         {
             "name": "opis/closure",
-            "version": "3.4.2",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "27fdc275b7963492d0bf0852525da57ff2be67a0"
+                "reference": "1c858950caeaaadd934cfc7a0adde596280f3cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/27fdc275b7963492d0bf0852525da57ff2be67a0",
-                "reference": "27fdc275b7963492d0bf0852525da57ff2be67a0",
+                "url": "https://api.github.com/repos/opis/closure/zipball/1c858950caeaaadd934cfc7a0adde596280f3cd1",
+                "reference": "1c858950caeaaadd934cfc7a0adde596280f3cd1",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +886,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4.x-dev"
+                    "dev-master": "3.5.x-dev"
                 }
             },
             "autoload": {
@@ -921,7 +921,7 @@
                 "serialization",
                 "serialize"
             ],
-            "time": "2019-11-29T11:33:32+00:00"
+            "time": "2019-11-29T21:26:05+00:00"
         },
         {
             "name": "paragonie/random_compat",
